@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar libro</title>
+</head>
+<body>
+    <h1>Registrar libro</h1>
+
+    <form action="../php/book/processBook.php" method="post">
+        <label>Titulo</label>
+        <input type="text" name="titulo" required><br><br>
+
+        <label>Editorial:</label>
+        <input type="text" name="editorial" required><br><br>
+
+        <label>Fecha de edición:</label>
+        <input type="date" name="fedicion" required><br><br>
+
+        <label>Idioma:</label>
+        <input type="text" name="idioma" required><br><br>
+
+        <label>Cantidad de páginas:</label>
+        <input type="number" name="cantpaginas" required><br><br>
+
+        <label>Estado:</label>
+        <input type="text" name="estado"><br><br>
+
+        <button type="submit">Enviar</button>
+    </form><br>
+
+    <a href="../pages/menu.html">Volver</a>
+</body>
+</html>

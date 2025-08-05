@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de libros por estado</title>
+</head>
+<body>
+    <h1>Seleccione un estado</h1>
+
+    <form action="../php/book/listBooksStatus.php" method="post">
+        <label>Estado:</label>
+        <select name="estado" required>
+            <option>En biblioteca</option>
+            <option>Prestado</option>
+            <option>En reparación</option>
+        </select><br><br>
+
+        <button type="submit">Enviar</button>
+    </form><br>
+
+    <a href="../pages//menu.html">Volver</a>
+</body>
+</html>
